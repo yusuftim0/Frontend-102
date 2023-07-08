@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>ITBrains.com</title> 
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, initial-scale=1">
+<style>
+*{
+ box-sizing: border-box;
+}
+body {
+ margin: 0;
+}
+.header {
+  background-color: Lightgrey;
+  padding: 20px; 
+  text-align: center;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color:black;
+}
+
+.topnav a { 
+  float:left;
+  display: block;
+  text-align: center; 
+  padding:17px;
+  color:white; 
+  text-decoration: none; 
+}
+
+.topnav a:hover {
+  background-color:lightgrey;          color:lightgrey;
+}
+
+.column {
+ float: left;
+ width: 33.33%;
+ padding: 16px;
+}
+
+.row::after {
+ content:"";
+ display: table;
+ clear: both;
+}
+  
+ @media screen and (max-width:600px) {
+.column{
+  width: 100%;
+  }
+}
+
+</style> 
+</head>
+<body>
+
+<div class="header">
+<h1><cite>Web Developer</cite></h1> <p><b style="color:red;">Front-end Developer olmak için ilk bilmeniz
+gerekenler...</b></p>
+</div>
+
+<div class="topnav">
+<a href="https://www.w3schools.com/sql/default.asp">SQL</a> 
+<a href="https://www.w3schools.com/python/default.asp">PHYTON</a> 
+<a href="https://www.w3schools.com/java/default.asp">JAVA</a>
+<a href="https://www.w3schools.com">LESSONS</a>
+</div>
+
+<div class="row"> 
+  <div class="column">
+    <h2 style="font-family: fantasy;">HTML</h2>
+  <p style="font-family: fantasy;">Hiper Metin Işaretleme Dili
+(HTML, Ingilizce HyperText Markup Language kelimelerinin baş harflerinin kısaltılmasıdır) web sayfalarını oluşturmak için kullanılan standart metin işaretleme dilidir. Dilin son sürümü HTML5' tir.HTML, bir programlama dili olarak tanımlanamaz. Zira HTML kodlarıyla kendi başına çalışan bir program yazılamaz. Ancak bu dili yorumlayabilen programlar aracılığıyla çalışabilen programlar yazılabilir.</p> 
+</div>
+
+<div class="column">
+ <h2 style="font-family: fantasy;">CSS</h2> 
+  <p style="font-family: fantasy:">Cascading Style Sheets (Basamaklı Stil Şablonları ya da Basamaklı Biçim Sayfaları, bilinen kisa adıyla (CSS), HTML'e ek olarak metin ve format biçimlendirme alanında fazladan olanaklar sunan bir işaretleme dilidir.internet sayfaları için genelgeçer şablonlar hazırlama olanağı verdiği gibi, bağımsız olarak harflerin stilini, yani renk, yazı tipi, büyüklük gibi özelliklerini değiştirmek için de kullanılabilir. Bu tekniğin en önemli özelliği kullanımındaki esnekliktir.</p> 
+</div>
+
+<div class="column">
+  <h2 style="font-family: fantasy;">JavaScript</h2> 
+  <p style=" font-family: fantasy;">JavaScript (genellikle JS olarak kısaltılır), HTML ve CSS ile birlikte World Wide Web'in temel teknolojilerinden biri olan programlama dilidir.Web sitelerinin 97'sinden fazlası, web sayfası hareketleri için istemci tarafında JavaScript kullanırlar ve kullanılan kodlar genellikle üçüncü taraf kitaplıkları içerir. Tüm büyük web tarayıcılarında, kaynak kodunu kullanıcıların cihazlarında yürütebilmek için özel bir JavaScript motoru bulunur.
+</p>
+</div>
+</div>
+</body>
+</html>                                        
